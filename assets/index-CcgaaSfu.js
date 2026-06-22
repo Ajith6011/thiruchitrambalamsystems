@@ -24,6 +24,7 @@ Error generating stack: `+e.message+`
   font-family:'Inter',system-ui,sans-serif;
   color:var(--text); background:var(--bg);
   -webkit-font-smoothing:antialiased; line-height:1.6;
+  text-align:left; width:100%; overflow-x:clip; position:relative;
 }
 .tcs-root[data-theme="dark"]{
   --blue:#2d5bd6; --blue-deep:#0a1733; --blue-soft:#1d3f9e;
